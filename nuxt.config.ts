@@ -5,6 +5,7 @@ const config: NuxtConfig = {
 		'@nuxt/typescript-build',
 		'nuxt-windicss',
 		'@nuxtjs/google-fonts',
+		'unplugin-icons/nuxt',
 	],
 	components: true,
 	googleFonts: {

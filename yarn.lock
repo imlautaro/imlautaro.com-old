@@ -9,6 +9,13 @@
   dependencies:
     "@types/throttle-debounce" "^2.1.0"
 
+"@antfu/utils@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@antfu/utils/-/utils-0.3.0.tgz#6306c43b52a883bd8e973e3ed8dd64248418bcc4"
+  integrity sha512-UU8TLr/EoXdg7OjMp0h9oDoIAVr+Z/oW9cpOxQQyrsz6Qzd2ms/1CdWx8fl2OQdFpxGmq5Vc4TwfLHId6nAZjA==
+  dependencies:
+    "@types/throttle-debounce" "^2.1.0"
+
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.14.5", "@babel/code-frame@^7.8.3":
   version "7.14.5"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.14.5.tgz#23b08d740e83f49c5e59945fbf1b43e80bbf4edb"
@@ -919,6 +926,16 @@
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@gar/promisify/-/promisify-1.1.2.tgz#30aa825f11d438671d585bd44e7fd564535fc210"
   integrity sha512-82cpyJyKRoQoRi+14ibCeGPu0CwypgtBAdBhq1WfvagpCZNKqwXbKwXllYSMG91DhmG4jt9gN8eP6lGOtozuaw==
+
+"@iconify/json-tools@^1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@iconify/json-tools/-/json-tools-1.0.10.tgz#d9a7050dbbe8bb29d684d4b3f9446ed2d0bea3cc"
+  integrity sha512-LFelJDOLZ6JHlmlAkgrvmcu4hpNPB91KYcr4f60D/exzU1eNOb4/KCVHIydGHIQFaOacIOD+Xy+B7P1z812cZg==
+
+"@iconify/json@^1.1.404":
+  version "1.1.404"
+  resolved "https://registry.yarnpkg.com/@iconify/json/-/json-1.1.404.tgz#091f5446aa0d68f8415923cf9b21ce94bd8d9ade"
+  integrity sha512-/77BdzRhxQYKnL8Ri2XO5metGcmUTKtoorSscWapQpYhSRTWc6M8UaBVQt+Dn+SMNhiF3vBy7DuKGb7mq7eraw==
 
 "@lokidb/full-text-search@^2.1.0":
   version "2.1.0"
@@ -4500,6 +4517,11 @@ has-flag@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/has-flag/-/has-flag-4.0.0.tgz#944771fd9c81c81265c4d6941860da06bb59479b"
   integrity sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==
+
+has-pkg@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/has-pkg/-/has-pkg-0.0.1.tgz#f9d9139ed83e2487deae5eb4ac13182a2e903857"
+  integrity sha512-UuzsNxcEOdEwRsz4HtaceT7jg71L2gopEq8OMOGKtPLYhHhF4RJZtkcZ4Xn0jmAmBSNhm0xPhrywgZkLu4aMYQ==
 
 has-symbols@^1.0.1, has-symbols@^1.0.2:
   version "1.0.2"
@@ -9155,6 +9177,24 @@ unpipe@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/unpipe/-/unpipe-1.0.0.tgz#b2bf4ee8514aae6165b4817829d21b2ef49904ec"
   integrity sha1-sr9O6FFKrmFltIF4KdIbLvSZBOw=
+
+unplugin-icons@^0.11.3:
+  version "0.11.3"
+  resolved "https://registry.yarnpkg.com/unplugin-icons/-/unplugin-icons-0.11.3.tgz#ac129d23ed5d81696f7e0555c9703ab9b45882a7"
+  integrity sha512-qJMi1YBv6QN2R6lu+l7dR+W3LXmen09/h2OzD9324YOvRM6ElsmaCWvc5uuvAVUSpSuuAKfb+Ay1lCIfpb34RA==
+  dependencies:
+    "@antfu/utils" "^0.3.0"
+    "@iconify/json-tools" "^1.0.10"
+    has-pkg "^0.0.1"
+    unplugin "^0.2.9"
+
+unplugin@^0.2.9:
+  version "0.2.13"
+  resolved "https://registry.yarnpkg.com/unplugin/-/unplugin-0.2.13.tgz#93a8ae8f1b6c1be5730e64d684c3d3bc287701d6"
+  integrity sha512-GR7opeDHi26Gle4UfjanQYBnR3FJhdwYt7Hs4Kp1MTkK5a/L/u/wEEjXMPeZsTmWroRalr9gYKISb5JoN2reNA==
+  dependencies:
+    upath "^2.0.1"
+    webpack-virtual-modules "^0.4.3"
 
 unquote@~1.1.1:
   version "1.1.1"
