@@ -8,6 +8,7 @@ const config: NuxtConfig = {
 		'unplugin-icons/nuxt',
 		'@nuxtjs/composition-api/module',
 		'@nuxtjs/color-mode',
+		'@nuxtjs/pwa',
 	],
 	colorMode: {
 		classSuffix: '',
@@ -20,6 +21,15 @@ const config: NuxtConfig = {
 		},
 	},
 	modules: ['@nuxtjs/robots', '@nuxt/content'],
+	pwa: {
+		manifest: {
+			lang: 'en',
+			name: 'Lautaro Pereyra',
+			short_name: '@imlautaro',
+			theme_color: '#000000',
+		},
+		workbox: false,
+	},
 	srcDir: 'src',
 	target: 'static',
 }
