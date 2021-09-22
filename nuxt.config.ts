@@ -28,6 +28,9 @@ const config: NuxtConfig = {
 			short_name: '@imlautaro',
 			theme_color: '#000000',
 		},
+		meta: {
+			ogImage: 'https://imlautaro.com/featured.png',
+		},
 		workbox: false,
 	},
 	srcDir: 'src',
