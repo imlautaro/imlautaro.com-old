@@ -6,6 +6,7 @@ const config: NuxtConfig = {
 		'nuxt-windicss',
 		'@nuxtjs/google-fonts',
 		'unplugin-icons/nuxt',
+		'@nuxtjs/composition-api/module',
 	],
 	components: true,
 	googleFonts: {
