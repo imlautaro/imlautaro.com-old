@@ -6,8 +6,7 @@ webhook_url:
 sections:
 - type: document
   path: src/content/home.md
-  label: Home page
-  match: "**/*"
+  label: Home
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
