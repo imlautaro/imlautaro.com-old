@@ -2,6 +2,7 @@ import { defineConfig } from 'windicss/helpers'
 
 const config = defineConfig({
 	darkMode: 'class',
+	plugins: [require('windicss/plugin/typography')],
 	theme: {
 		container: {
 			center: true,
