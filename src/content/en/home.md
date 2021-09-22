@@ -1,3 +1,8 @@
+---
+title: Lautaro Pereyra
+description: I am an expert in frontend development 💻 with NuxtJS. I'm from Buenos Aires, 🇦🇷 Argentina. ✅ Enter to see my projects!
+---
+
 # Lautaro Pereyra
 
 Heeey, I'm Lautaro, a 16 years old guy who loves cats 🐱 and programming amazing websites 💻. I'm from Buenos Aires, Argentina.

@@ -23,8 +23,26 @@ export default Vue.extend({
 		const home = await $content(`${i18n.locale}/home`).fetch()
 		return { home }
 	},
-	mounted() {
-		console.log(this.$i18n.locale)
+	head() {
+		return {
+			htmlAttrs: {
+				lang: this.$i18n.locale,
+			},
+			meta: [
+				{
+					name: 'description',
+					// @ts-ignore
+					content: this.home.description,
+				},
+				{
+					name: 'og:description',
+					// @ts-ignore
+					content: this.home.description,
+				},
+			],
+			// @ts-ignore
+			title: this.home.title,
+		}
 	},
 })
 </script>
