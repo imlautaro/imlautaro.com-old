@@ -12,6 +12,7 @@
 		"@nuxt/content": "^1.14.0",
 		"@nuxtjs/composition-api": "^0.29.2",
 		"@nuxtjs/gtm": "^2.4.0",
+		"@nuxtjs/i18n": "^7.0.3",
 		"@nuxtjs/robots": "^2.5.0",
 		"@nuxtjs/sitemap": "^2.4.0",
 		"nuxt": "^2.15.8"

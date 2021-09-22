@@ -30,7 +30,7 @@ A Progressive Web App with a list of irregular verbs for English learners (+offl
 
 A Web platform where users can find courses and tutorials about programming hosted in many platforms. They can also write reviews of courses and tutorials.
 
-This project was started to participate in the [Supabase Hackathon](https://supabase.io/blog/2021/07/30/1-the-supabase-hackathon) and and won a gold 🏅 in the same competition.
+This project was started to participate in the [Supabase Hackathon](https://supabase.io/blog/2021/07/30/1-the-supabase-hackathon) and won a gold 🏅 in the same competition.
 
 ## Other projects
 

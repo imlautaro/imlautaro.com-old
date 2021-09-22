@@ -23,10 +23,31 @@ const config: NuxtConfig = {
 	gtm: {
 		id: 'GTM-575736G',
 	},
+	i18n: {
+		defaultLocale: 'en',
+		locales: [
+			{
+				code: 'en',
+				name: 'English',
+			},
+			{
+				code: 'es',
+				name: 'Español',
+			},
+		],
+		vueI18n: {
+			fallbackLocale: 'en',
+			messages: {
+				en: require('./src/locales/en.json'),
+				es: require('./src/locales/es.json'),
+			},
+		},
+	},
 	modules: [
 		'@nuxtjs/robots',
 		'@nuxt/content',
 		'@nuxtjs/gtm',
+		'@nuxtjs/i18n',
 		'@nuxtjs/sitemap',
 	],
 	pwa: {
@@ -47,6 +68,7 @@ const config: NuxtConfig = {
 	sitemap: {
 		gzip: true,
 		hostname: 'https://imlautaro.com',
+		i18n: true,
 	},
 	srcDir: 'src',
 	target: 'static',
