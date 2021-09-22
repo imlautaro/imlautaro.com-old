@@ -23,6 +23,14 @@ const config: NuxtConfig = {
 	gtm: {
 		id: 'GTM-575736G',
 	},
+	head: {
+		meta: [
+			{
+				name: 'msvalidate.01',
+				content: 'C27F48AFE5071F5BB41098E817D1991A',
+			},
+		],
+	},
 	i18n: {
 		defaultLocale: 'en',
 		locales: [
