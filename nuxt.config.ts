@@ -15,7 +15,6 @@ const config: NuxtConfig = {
 	},
 	components: true,
 	googleFonts: {
-		display: 'swap',
 		families: {
 			'Titillium+Web': [400, 600, 700],
 		},
