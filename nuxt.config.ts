@@ -20,7 +20,10 @@ const config: NuxtConfig = {
 			'Titillium+Web': [400, 600, 700],
 		},
 	},
-	modules: ['@nuxtjs/robots', '@nuxt/content'],
+	gtm: {
+		id: 'GTM-575736G',
+	},
+	modules: ['@nuxtjs/robots', '@nuxt/content', '@nuxtjs/gtm'],
 	pwa: {
 		manifest: {
 			lang: 'en',
