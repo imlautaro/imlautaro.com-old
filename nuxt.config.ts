@@ -29,7 +29,10 @@ const config: NuxtConfig = {
 			theme_color: '#000000',
 		},
 		meta: {
-			ogImage: 'https://imlautaro.com/featured.png',
+			description:
+				"I am an expert in frontend development 💻 with NuxtJS. I'm from Buenos Aires, 🇦🇷 Argentina. ✅ Enter to see my projects!",
+			ogHost: 'https://imlautaro.com',
+			ogImage: '/featured.png',
 		},
 		workbox: false,
 	},
