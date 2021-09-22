@@ -23,7 +23,12 @@ const config: NuxtConfig = {
 	gtm: {
 		id: 'GTM-575736G',
 	},
-	modules: ['@nuxtjs/robots', '@nuxt/content', '@nuxtjs/gtm'],
+	modules: [
+		'@nuxtjs/robots',
+		'@nuxt/content',
+		'@nuxtjs/gtm',
+		'@nuxtjs/sitemap',
+	],
 	pwa: {
 		manifest: {
 			lang: 'en',
@@ -38,6 +43,10 @@ const config: NuxtConfig = {
 			ogImage: '/featured.png',
 		},
 		workbox: false,
+	},
+	sitemap: {
+		gzip: true,
+		hostname: 'https://imlautaro.com',
 	},
 	srcDir: 'src',
 	target: 'static',
