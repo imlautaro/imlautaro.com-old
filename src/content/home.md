@@ -2,7 +2,7 @@
 
 Heeey, I'm Lautaro, a 16 years old guy who loves cats 🐱 and programming amazing websites 💻. I'm from Buenos Aires, Argentina.
 
-I like to learn new technologies all the time, but my main stack is [NuxtJS](https://nuxtjs.org) + [TypeScript](https://typescriptlang.org) + [WindiCSS](https://windicss.org) and maybe [Supabase](https://supabase.io), [Firebase](https://firebase.google.com) or [AWS Amplify](https://docs.amplify.aws) for the backend.
+I like to learn new technologies all the time, but my main stack is [NuxtJS](https://nuxtjs.org) + [TypeScript](https://www.typescriptlang.org/) + [WindiCSS](https://windicss.org) and maybe [Supabase](https://supabase.io), [Firebase](https://firebase.google.com) or [AWS Amplify](https://docs.amplify.aws) for the backend.
 
 ## Latest projects
 
