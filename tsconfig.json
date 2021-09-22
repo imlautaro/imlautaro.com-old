@@ -15,7 +15,12 @@
 			"~/*": ["./src/*"],
 			"@/*": ["./src/*"]
 		},
-		"types": ["@types/node", "@nuxt/types", "@nuxt/content"]
+		"types": [
+			"@types/node",
+			"@nuxt/types",
+			"@nuxt/content",
+			"@nuxtjs/color-mode"
+		]
 	},
 	"exclude": ["node_modules"]
 }

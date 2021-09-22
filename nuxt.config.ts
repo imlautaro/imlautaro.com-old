@@ -7,7 +7,11 @@ const config: NuxtConfig = {
 		'@nuxtjs/google-fonts',
 		'unplugin-icons/nuxt',
 		'@nuxtjs/composition-api/module',
+		'@nuxtjs/color-mode',
 	],
+	colorMode: {
+		classSuffix: '',
+	},
 	components: true,
 	googleFonts: {
 		display: 'swap',

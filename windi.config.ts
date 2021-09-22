@@ -1,6 +1,7 @@
 import { defineConfig } from 'windicss/helpers'
 
 const config = defineConfig({
+	darkMode: 'class',
 	theme: {
 		container: {
 			center: true,
