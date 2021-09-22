@@ -76,7 +76,7 @@ If you want to contact me or follow me on any social network, feel free to do so
 
 -   [GitHub](https://github.com/imlautaro)
 -   [Twitter](https://twitter.com/imlautaro)
--   [Instagram](https://twitter.com/imlautaro)
+-   [Instagram](https://instagram.com/imlautaro)
 -   [Telegram](https://t.me/imlautaro)
 -   hi@imlautaro.com
 
