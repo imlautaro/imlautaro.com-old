@@ -35,7 +35,7 @@ export default Vue.extend({
 			title: this.home.title,
 			url: `https://imlautaro.com${
 				this.localePath('index') !== '/' ? this.localePath('index') : ''
-			}`,
+			}/`,
 		})
 	},
 })

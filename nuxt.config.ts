@@ -103,6 +103,7 @@ const config: NuxtConfig = {
 		gzip: true,
 		hostname: 'https://imlautaro.com',
 		i18n: true,
+		trailingSlash: true,
 	},
 	srcDir: 'src',
 	target: 'static',
