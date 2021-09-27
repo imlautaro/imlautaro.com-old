@@ -27,16 +27,20 @@ export default Vue.extend({
 		return { home }
 	},
 	head() {
-		return meta({
-			// @ts-ignore
-			description: this.home.description,
-			lang: this.$i18n.locale,
-			// @ts-ignore
-			title: this.home.title,
-			url: `https://imlautaro.com${
-				this.localePath('index') !== '/' ? this.localePath('index') : ''
-			}/`,
-		})
+		return {
+			...meta({
+				// @ts-ignore
+				description: this.home.description,
+				i18nHead: this.$nuxtI18nHead({ addSeoAttributes: true }),
+				// @ts-ignore
+				title: this.home.title,
+				url: `https://imlautaro.com${
+					this.localePath('index') !== '/'
+						? this.localePath('index')
+						: ''
+				}/`,
+			}),
+		}
 	},
 })
 </script>

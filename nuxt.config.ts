@@ -35,13 +35,6 @@ const config: NuxtConfig = {
 		id: 'GTM-575736G',
 	},
 	head: {
-		link: [
-			{
-				hid: 'canonical',
-				rel: 'canonical',
-				href: 'https://imlautaro.com',
-			},
-		],
 		meta: [
 			{
 				name: 'msvalidate.01',
@@ -63,14 +56,17 @@ const config: NuxtConfig = {
 		],
 	},
 	i18n: {
+		baseUrl: 'https://imlautaro.com',
 		defaultLocale: 'en',
 		locales: [
 			{
 				code: 'en',
+				iso: 'en-US',
 				name: 'English',
 			},
 			{
 				code: 'es',
+				iso: 'es-ES',
 				name: 'Español',
 			},
 		],

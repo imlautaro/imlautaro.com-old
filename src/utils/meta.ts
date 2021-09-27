@@ -1,22 +1,32 @@
+import {
+	LinkPropertyBase,
+	LinkPropertyHref,
+	LinkPropertyHrefCallback,
+	MetaInfo,
+} from 'vue-meta'
+
 interface Meta {
 	description: string
-	lang: string
+	i18nHead: MetaInfo
 	title: string
 	url: string
 }
 
-export default (meta: Meta) => {
+type link = LinkPropertyBase | LinkPropertyHref | LinkPropertyHrefCallback
+
+const addTrailingSlash = (item: link): link => {
+	if (item.href[item.href.length - 1] !== '/') {
+		item.href = item.href + '/'
+	}
+	return item
+}
+
+export default (meta: Meta): MetaInfo => {
 	return {
 		htmlAttrs: {
-			lang: meta.lang,
+			...meta.i18nHead.htmlAttrs,
 		},
-		link: [
-			{
-				hid: 'canonical',
-				rel: 'canonical',
-				href: meta.url,
-			},
-		],
+		link: [...meta.i18nHead.link!.map(addTrailingSlash)],
 		meta: [
 			{
 				hid: 'description',
@@ -38,6 +48,7 @@ export default (meta: Meta) => {
 				property: 'og:url',
 				content: meta.url,
 			},
+			...meta.i18nHead.meta!,
 		],
 		title: meta.title,
 	}
