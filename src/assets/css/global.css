@@ -1,8 +1,33 @@
 @layer base {
 	html {
+		@apply bg-gray-100;
 		scroll-behavior: smooth;
+	}
+	html.dark {
+		@apply bg-gray-900;
 	}
 	body {
 		-webkit-tap-highlight-color: transparent;
+	}
+	button,
+	input,
+	h1,
+	textarea,
+	select,
+	div,
+	a {
+		@apply outline-none !important;
+		&:focus {
+			@apply outline-none !important;
+		}
+	}
+}
+
+@layer components {
+	.icon-btn {
+		@apply duration-100 flex p-3 rounded-2xl;
+		&:hover {
+			@apply dark:bg-white/5 md:bg-black/5;
+		}
 	}
 }

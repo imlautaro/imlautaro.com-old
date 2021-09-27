@@ -1,7 +1,7 @@
 <template>
 	<div>
-		<div class="prose mx-auto">
-			<p>
+		<div class="dark:prose-light prose mx-auto">
+			<div class="flex items-center justify-between mb-4">
 				<nuxt-link
 					v-if="$i18n.locale !== 'en'"
 					:to="switchLocalePath('en')"
@@ -10,7 +10,8 @@
 				<nuxt-link v-else :to="switchLocalePath('es')"
 					>View spanish version</nuxt-link
 				>
-			</p>
+				<theme-toggler />
+			</div>
 			<nuxt-content :document="home" />
 		</div>
 	</div>
