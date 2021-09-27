@@ -26,6 +26,7 @@ const config: NuxtConfig = {
 	},
 	css: ['~/assets/css/global.css'],
 	googleFonts: {
+		display: 'swap',
 		families: {
 			'Encode+Sans': [400, 600, 700],
 		},
