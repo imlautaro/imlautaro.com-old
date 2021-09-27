@@ -61,12 +61,12 @@ const config: NuxtConfig = {
 		locales: [
 			{
 				code: 'en',
-				iso: 'en-US',
+				iso: 'en',
 				name: 'English',
 			},
 			{
 				code: 'es',
-				iso: 'es-ES',
+				iso: 'es',
 				name: 'Español',
 			},
 		],
