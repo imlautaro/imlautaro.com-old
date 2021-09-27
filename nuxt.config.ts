@@ -79,7 +79,6 @@ const config: NuxtConfig = {
 			ogHost: 'https://imlautaro.com',
 			ogImage: '/featured.png',
 		},
-		workbox: false,
 	},
 	sitemap: {
 		gzip: true,
