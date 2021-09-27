@@ -14,6 +14,16 @@ const config: NuxtConfig = {
 		classSuffix: '',
 	},
 	components: true,
+	content: {
+		markdown: {
+			remarkPlugins: () => [
+				'remark-squeeze-paragraphs',
+				'remark-slug',
+				'remark-external-links',
+				'remark-footnotes',
+			],
+		},
+	},
 	css: ['~/assets/css/global.css'],
 	googleFonts: {
 		families: {
