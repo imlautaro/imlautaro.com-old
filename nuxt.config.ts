@@ -73,7 +73,6 @@ const config: NuxtConfig = {
 		manifest: {
 			name: 'Lautaro Pereyra',
 			short_name: '@imlautaro',
-			theme_color: '#000000',
 		},
 		meta: {
 			ogHost: 'https://imlautaro.com',
