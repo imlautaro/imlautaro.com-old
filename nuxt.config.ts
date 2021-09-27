@@ -14,6 +14,7 @@ const config: NuxtConfig = {
 		classSuffix: '',
 	},
 	components: true,
+	css: ['~/assets/css/global.css'],
 	googleFonts: {
 		families: {
 			'Titillium+Web': [400, 600, 700],
