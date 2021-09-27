@@ -1,6 +1,6 @@
 ---
-title: Lautaro Pereyra
-description: Soy un experto en desarrollo frontend 💻 con NuxtJS. Soy de Buenos Aires, 🇦🇷 Argentina. ✅ ¡Entra para ver mis proyectos!
+title: Lautaro Pereyra | Desarrollador Web y diseñador UI/UX
+description: Soy un experto en desarrollo frontend 💻 con NuxtJS. Me gusta la comunidad de código abierto. Soy de Buenos Aires, 🇦🇷 Argentina. ✅ ¡Entra para ver mis proyectos!
 ---
 
 # Lautaro Pereyra

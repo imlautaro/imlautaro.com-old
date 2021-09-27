@@ -35,10 +35,30 @@ const config: NuxtConfig = {
 		id: 'GTM-575736G',
 	},
 	head: {
+		link: [
+			{
+				hid: 'canonical',
+				rel: 'canonical',
+				href: 'https://imlautaro.com',
+			},
+		],
 		meta: [
 			{
 				name: 'msvalidate.01',
 				content: 'C27F48AFE5071F5BB41098E817D1991A',
+			},
+			{
+				name: 'twitter:site',
+				content: '@imlautaro',
+			},
+			{
+				name: 'twitter:card',
+				content: 'summary_large_image',
+			},
+			{
+				hid: 'twitter:image',
+				name: 'twitter:image',
+				content: '/featured.png',
 			},
 		],
 	},

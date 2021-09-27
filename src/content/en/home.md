@@ -1,6 +1,6 @@
 ---
-title: Lautaro Pereyra
-description: I am an expert in frontend development 💻 with NuxtJS. I'm from Buenos Aires, 🇦🇷 Argentina. ✅ Enter to see my projects!
+title: Lautaro Pereyra | Web developer & UI/UX designer
+description: I am an expert in frontend development 💻 with NuxtJS. I like the open source community. I'm from Buenos Aires, 🇦🇷 Argentina. ✅ Enter to see my projects!
 ---
 
 # Lautaro Pereyra

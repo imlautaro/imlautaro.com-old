@@ -19,31 +19,24 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import meta from '~/utils/meta'
+
 export default Vue.extend({
 	async asyncData({ $content, i18n }) {
 		const home = await $content(`${i18n.locale}/home`).fetch()
 		return { home }
 	},
 	head() {
-		return {
-			htmlAttrs: {
-				lang: this.$i18n.locale,
-			},
-			meta: [
-				{
-					name: 'description',
-					// @ts-ignore
-					content: this.home.description,
-				},
-				{
-					name: 'og:description',
-					// @ts-ignore
-					content: this.home.description,
-				},
-			],
+		return meta({
+			// @ts-ignore
+			description: this.home.description,
+			lang: this.$i18n.locale,
 			// @ts-ignore
 			title: this.home.title,
-		}
+			url: `https://imlautaro.com${
+				this.localePath('index') !== '/' ? this.localePath('index') : ''
+			}`,
+		})
 	},
 })
 </script>
