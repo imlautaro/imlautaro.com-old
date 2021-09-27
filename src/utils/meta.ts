@@ -14,10 +14,15 @@ export default (meta: Meta) => {
 			{
 				hid: 'canonical',
 				rel: 'canonical',
-				content: meta.url,
+				href: meta.url,
 			},
 		],
 		meta: [
+			{
+				hid: 'description',
+				name: 'description',
+				content: meta.description,
+			},
 			{
 				hid: 'og:description',
 				property: 'og:description',
