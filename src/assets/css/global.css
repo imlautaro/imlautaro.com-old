@@ -26,8 +26,11 @@
 @layer components {
 	.icon-btn {
 		@apply duration-100 flex p-3 rounded-2xl;
+		&:active {
+			@apply bg-black/10 dark:bg-white/10;
+		}
 		&:hover {
-			@apply dark:bg-white/5 md:bg-black/5;
+			@apply md:bg-black/5 md:dark:bg-white/5;
 		}
 	}
 }
