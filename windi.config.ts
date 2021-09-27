@@ -20,7 +20,7 @@ const config = defineConfig({
 			},
 		},
 		fontFamily: {
-			sans: ['"Titillium Web"', 'sans-serif'],
+			sans: ['"Encode Sans"', 'sans-serif'],
 		},
 	},
 })

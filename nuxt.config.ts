@@ -17,7 +17,7 @@ const config: NuxtConfig = {
 	css: ['~/assets/css/global.css'],
 	googleFonts: {
 		families: {
-			'Titillium+Web': [400, 600, 700],
+			'Encode+Sans': [400, 600, 700],
 		},
 	},
 	gtm: {
