@@ -1,9 +1,4 @@
-import {
-	LinkPropertyBase,
-	LinkPropertyHref,
-	LinkPropertyHrefCallback,
-	MetaInfo,
-} from 'vue-meta'
+import { MetaInfo } from 'vue-meta'
 
 interface Meta {
 	description: string
@@ -12,21 +7,12 @@ interface Meta {
 	url: string
 }
 
-type link = LinkPropertyBase | LinkPropertyHref | LinkPropertyHrefCallback
-
-const addTrailingSlash = (item: link): link => {
-	if (item.href[item.href.length - 1] !== '/') {
-		item.href = item.href + '/'
-	}
-	return item
-}
-
 export default (meta: Meta): MetaInfo => {
 	return {
 		htmlAttrs: {
 			...meta.i18nHead.htmlAttrs,
 		},
-		link: [...meta.i18nHead.link!.map(addTrailingSlash)],
+		link: [...meta.i18nHead.link!],
 		meta: [
 			{
 				hid: 'description',

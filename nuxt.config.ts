@@ -95,6 +95,9 @@ const config: NuxtConfig = {
 			ogImage: '/featured.png',
 		},
 	},
+	router: {
+		trailingSlash: true,
+	},
 	sitemap: {
 		gzip: true,
 		hostname: 'https://imlautaro.com',

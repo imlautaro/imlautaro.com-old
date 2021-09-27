@@ -34,11 +34,7 @@ export default Vue.extend({
 				i18nHead: this.$nuxtI18nHead({ addSeoAttributes: true }),
 				// @ts-ignore
 				title: this.home.title,
-				url: `https://imlautaro.com${
-					this.localePath('index') !== '/'
-						? this.localePath('index')
-						: ''
-				}/`,
+				url: `https://imlautaro.com${this.localePath('index')}`,
 			}),
 		}
 	},
