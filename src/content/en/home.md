@@ -11,7 +11,7 @@ I like to learn new technologies all the time, but my main stack is [NuxtJS](htt
 
 ## Latest projects
 
-I'm the developer & UI/UX designer of [Canto Sin Fronteras](https://cantosinfronteras.com), [Sing4U](https://sing4u.app), [USD2ARS](https://usd2ars.web.app), [EIVL](https://english-irregular-verbs-list.web.app), [Bittermate](https://bittermate.vercel.app) and a few others projects.
+I'm the developer & UI/UX designer of [Canto Sin Fronteras](https://cantosinfronteras.com), [Sing4U](https://sing4u.app), [USD2ARS](https://usd2ars.nuxt.club), [EIVL](https://english-irregular-verbs-list.web.app), [Bittermate](https://bittermate.vercel.app) and a few others projects.
 
 I think it's good to mention that I really like the open source community, so most of my projects are open source as well.
 
