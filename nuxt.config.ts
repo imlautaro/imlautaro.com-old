@@ -58,24 +58,23 @@ const config: NuxtConfig = {
 	i18n: {
 		baseUrl: 'https://imlautaro.com',
 		defaultLocale: 'en',
+		langDir: '~/locales',
 		locales: [
 			{
 				code: 'en',
+				file: 'en.json',
 				iso: 'en',
 				name: 'English',
 			},
 			{
 				code: 'es',
+				file: 'es.json',
 				iso: 'es',
 				name: 'Español',
 			},
 		],
 		vueI18n: {
 			fallbackLocale: 'en',
-			messages: {
-				en: require('./src/locales/en.json'),
-				es: require('./src/locales/es.json'),
-			},
 		},
 	},
 	modules: [
