@@ -1,6 +1,7 @@
 import { defineConfig } from 'windicss/helpers'
 import typography from 'windicss/plugin/typography'
 import colors from 'windicss/colors'
+import native from 'windi-native'
 
 const config = defineConfig({
 	darkMode: 'class',
@@ -8,6 +9,7 @@ const config = defineConfig({
 		typography({
 			dark: true,
 		}),
+		native,
 	],
 	theme: {
 		container: {

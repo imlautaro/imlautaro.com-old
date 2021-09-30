@@ -1,25 +1,12 @@
 @layer base {
 	html {
 		@apply bg-white;
-		scroll-behavior: smooth;
 	}
 	html.dark {
 		@apply bg-gray-900;
 	}
-	body {
-		-webkit-tap-highlight-color: transparent;
-	}
-	button,
-	input,
-	h1,
-	textarea,
-	select,
-	div,
-	a {
-		@apply outline-none !important;
-		&:focus {
-			@apply outline-none !important;
-		}
+	.prose {
+		@apply select-text;
 	}
 }
 
