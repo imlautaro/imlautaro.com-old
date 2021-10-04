@@ -11,7 +11,7 @@ Me gusta aprender nuevas tecnologías todo el tiempo, pero mi stack principal es
 
 ## Proyectos más recientes
 
-Soy el desarrollador y diseñador UI/UX de [Canto Sin Fronteras](https://cantosinfronteras.com), [Sing4U](https://sing4u.app), [USD2ARS](https://usd2ars.nuxt.club), [EIVL](https://english-irregular-verbs-list.web.app), [Bittermate](https://bittermate.vercel.app) y algunos otros proyectos.
+Soy el desarrollador y diseñador UI/UX de [Canto Sin Fronteras](https://cantosinfronteras.com), [Sing4U](https://sing4u.app), [USD2ARS](https://usd2ars.nuxt.club), [EIVL](https://eivl.nuxt.club/), [Bittermate](https://bittermate.vercel.app) y algunos otros proyectos.
 
 Creo que es bueno mencionar que me encanta la comunidad open source, así que la mayoría de mis proyectos son open source también.
 
