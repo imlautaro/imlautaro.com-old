@@ -19,6 +19,11 @@ const config = defineConfig({
 		extend: {
 			colors: {
 				gray: colors.gray,
+				primary: colors.indigo,
+				danger: colors.rose,
+				success: colors.teal,
+				warning: colors.orange,
+				info: colors.sky,
 			},
 			screens: {
 				nt: { raw: '(hover: hover)' },
