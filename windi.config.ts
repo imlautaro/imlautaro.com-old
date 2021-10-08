@@ -20,6 +20,9 @@ const config = defineConfig({
 			colors: {
 				gray: colors.gray,
 			},
+			screens: {
+				nt: { raw: '(hover: hover)' },
+			},
 		},
 		fontFamily: {
 			sans: ['"Encode Sans"', 'sans-serif'],
