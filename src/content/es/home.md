@@ -11,7 +11,7 @@ Me gusta aprender nuevas tecnologías todo el tiempo, pero mi stack principal es
 
 ## Proyectos más recientes
 
-Soy el desarrollador y diseñador UI/UX de [Canto Sin Fronteras](https://cantosinfronteras.com), [Sing4U](https://sing4u.app), [USD2ARS](https://usd2ars.nuxt.club), [EIVL](https://eivl.nuxt.club/), [Bittermate](https://bittermate.vercel.app) y algunos otros proyectos.
+Soy el desarrollador y diseñador UI/UX de [Canto Sin Fronteras](https://cantosinfronteras.com), [Sing4U](https://sing4u.app), [USD2ARS](https://usd2ars.nuxt.club), [EIVL](https://eivl.nuxt.club/), [Bittermate](https://bittermate.vercel.app), [Supagram](https://supagram.vercel.app/) y algunos otros proyectos.
 
 Creo que es bueno mencionar que me encanta la comunidad open source, así que la mayoría de mis proyectos son open source también.
 
@@ -36,6 +36,12 @@ Una aplicación Web progresiva con una lista de verbos irregulares para estudian
 Una plataforma Web donde los usuarios pueden encontrar cursos y tutoriales sobre programación subidos a diversas plataformas de la Web. También pueden escribir reseñas de los cursos y tutoriales que vayan completando.
 
 Este proyecto fue creado para participar en la [Supabase Hackathon](https://supabase.io/blog/2021/07/30/1-the-supabase-hackathon) y ganó un oro 🏅 en la misma competencia.
+
+### Supagram
+
+Una red social abierta donde cualquiera puede compartir sus ideas y opiniones.
+
+Este proyecto fue creado para participar en la [Supabase Hacktoberfest Hackathon 2021](https://supabase.io/blog/2021/09/28/supabase-hacktoberfest-hackathon-2021)
 
 ## Otros proyectos
 
