@@ -8,12 +8,8 @@
 		size="sm"
 		variant="text"
 	>
-		<ph-moon-bold
-			v-if="$colorMode.value === 'dark'"
-			height="24px"
-			width="24px"
-		/>
-		<ph-sun-bold v-else height="24px" width="24px" />
+		<ph-moon-bold v-if="$colorMode.value === 'dark'" />
+		<ph-sun-bold v-else />
 	</s-button>
 </template>
 

@@ -5,7 +5,7 @@ const config: NuxtConfig = {
 		'@nuxt/typescript-build',
 		'nuxt-windicss',
 		'@nuxtjs/google-fonts',
-		'unplugin-icons/nuxt',
+		['unplugin-icons/nuxt', { scale: 1.5 }],
 		'@nuxtjs/composition-api/module',
 		'@nuxtjs/color-mode',
 		'@nuxtjs/pwa',

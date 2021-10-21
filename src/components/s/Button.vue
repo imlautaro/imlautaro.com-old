@@ -3,7 +3,7 @@
 		v-if="loading !== undefined && loading !== false"
 		:class="buildClasses"
 	>
-		<ph-spinner-bold class="animate-spin" height="24px" width="24px" />
+		<ph-spinner-bold class="animate-spin" />
 		<span v-if="icon === undefined">{{ $t('loading') }}...</span>
 	</div>
 	<nuxt-link v-else-if="to !== undefined" :class="buildClasses" :to="to">
@@ -63,7 +63,7 @@ a.btn-default.btn-nav.nuxt-link-exact-active {
 .btn-sm {
 	@apply px-3 py-2 rounded-xl text-sm;
 	&.btn-icon {
-		@apply p-3 rounded-2xl;
+		@apply p-3 rounded-2xl text-base !important;
 	}
 }
 .btn-lg {
