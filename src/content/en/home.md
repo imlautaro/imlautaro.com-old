@@ -11,7 +11,7 @@ I like to learn new technologies all the time, but my main stack is [NuxtJS](htt
 
 ## Latest projects
 
-I'm the developer & UI/UX designer of [Canto Sin Fronteras](https://cantosinfronteras.com), [Sing4U](https://sing4u.app), [USD2ARS](https://usd2ars.nuxt.club), [EIVL](https://eivl.nuxt.club/), [Bittermate](https://bittermate.vercel.app) and a few others projects.
+I'm the developer & UI/UX designer of [Canto Sin Fronteras](https://cantosinfronteras.com), [Sing4U](https://sing4u.app), [USD2ARS](https://usd2ars.nuxt.club), [EIVL](https://eivl.nuxt.club/), [Bittermate](https://bittermate.vercel.app), [Supagram](https://supagram.vercel.app/) and a few others projects.
 
 I think it's good to mention that I really like the open source community, so most of my projects are open source as well.
 
@@ -36,6 +36,12 @@ A Progressive Web App with a list of irregular verbs for English learners (+offl
 A Web platform where users can find courses and tutorials about programming hosted in many platforms. They can also write reviews of courses and tutorials.
 
 This project was started to participate in the [Supabase Hackathon](https://supabase.io/blog/2021/07/30/1-the-supabase-hackathon) and won a gold 🏅 in the same competition.
+
+### Supagram
+
+An open social network where anyone can share their ideas and opinions.
+
+This project was started to participate in the [Supabase Hacktoberfest Hackathon 2021](https://supabase.io/blog/2021/09/28/supabase-hacktoberfest-hackathon-2021)
 
 ## Other projects
 
